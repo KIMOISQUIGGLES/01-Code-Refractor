@@ -31,7 +31,8 @@ THEN I find a concise, descriptive title
 ```
 ## What we are working with: 
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+<img src="ss 1.PNG">
+<img src="ss 2.PNG">
 
 ## Our products:
 
@@ -60,4 +61,6 @@ Webpage: https://kimoisquiggles.github.io/01-Code-Refractor/
     -h2 within <aside>
    b. changed class/id/names for selectors to match changes in HTML
    ```
+
+   
 
