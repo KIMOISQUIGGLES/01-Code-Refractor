@@ -1,3 +1,4 @@
+/*Establish properties and values that will be universal*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,11 +7,7 @@
     color: inherit;
 }
 
-body {
-    background-color: #d9dcd6;
-    color: #ffffff;
-}
-
+/*set font and background colors of <header>*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,16 +19,19 @@ header {
     z-index: 1;
 }
 
-h1 {
+/*set display and font size for Horiseon title*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+/*changes color of "seo" within Horiseon*/
+header .seo {
     color: #d9dcd6;
 }
 
-nav {
+/*sets font, spacing, and position of elements in <nav> bar*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,16 +40,19 @@ nav {
     color: #ffffff;
 }
 
+/*removes dots from list items in <nav> bar*/
 header ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/*establishes font size for text within <Header> and <Body>*/
 p {
     font-size: 16px;
 }
 
+/*displays background image at the top of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,16 +63,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/*sets the background and font color of webpage*/
+body {
+    background-color: #d9dcd6;
+    color: #ffffff;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*establish margin and font size of the <main> section within webpage*/
 .content {
     width: 75%;
     display: inline-block;
@@ -78,6 +78,19 @@ p {
     font-size: 36px;
 }
 
+/*moves articles in main to the left*/
+.content .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*moves articles in main to the right*/
+.content .float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*establish font, spacing, and background color of each article within main*/
 .content_item {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,15 +99,18 @@ p {
     background-color: #0072bb;
 }
 
+/*sets the size of each image within main*/
 .content img {
     max-height: 200px;
 }
 
+/*set font size and margin of headers within main*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*set margin, spacing, position, font, and color of <aside>*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,20 +122,24 @@ p {
     background-color: #2589bd;
 }
 
+/*sets spacing beneath each paragraph in <aside>*/
 .benefits p {
     margin-bottom: 32px;
 }
 
+/*sets position and size for each icon in <aside>*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*positions the headings in <aside>*/
 .benefits h3 {
     text-align: center;
 }
 
+/*assign font, position, and font color to <footer>*/
 footer {
     padding: 30px;
     clear: both;
@@ -128,6 +148,7 @@ footer {
     color: black;
 }
 
+/*sets font size of <h2> within <footer>*/
 footer h2 {
     font-size:20px;
 }
